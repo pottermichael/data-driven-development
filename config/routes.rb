@@ -8,9 +8,13 @@ Rails.application.routes.draw do
   
   get 'amenity', to: 'home#amenity'
 
-  get 'office', to: 'home#office'
+  get 'migration', to: 'home#migration'
+  
+  get 'comps', to: 'home#comps'
   
   get 'apartment', to: 'home#apartment'
+  
+  get 'inventory', to: 'home#inventory'
   
   get 'infrastructure', to: 'home#infrastructure'
   
